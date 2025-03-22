@@ -1,4 +1,129 @@
-.App{
-  color: blueviolet;
-  font-size: larger;
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Background Styling */
+.Background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.Background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%); /* Dark overlay effect */
+}
+
+/* Netflix Logo Section */
+.Absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 50px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
+  z-index: 10;
+}
+
+.Logo {
+  width: 150px;
+}
+
+/* Login Form Container */
+.Login-Form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  padding: 60px;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+  color: white;
+  text-align: left;
+}
+
+/* Sign In Heading */
+.Sign-in {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+.login-text {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background: #333;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+}
+
+/* Sign-In Button */
+.login-btn {
+  width: 100%;
+  color: white;
+  padding: 12px;
+  background: #e50914;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.login-btn:hover {
+  background: #b20710;
+}
+
+/* Remember Me & Need Help Section */
+.remember-help {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #b3b3b3;
+  margin-top: 10px;
+}
+
+.remember-help input {
+  margin-right: 5px;
+}
+
+/* Sign-Up Link */
+.signup-text {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #b3b3b3;
+  cursor: pointer;
+}
+
+.signup-text a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styling */
+.footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #b3b3b3;
 }
