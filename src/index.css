@@ -164,3 +164,59 @@ padding-bottom: 1rem;
   outline: none;
 
 }
+
+.video-title-container{
+  padding-left: 6rem;  /* Equivalent to px-24 */
+  padding-right: 6rem; /* Equivalent to px-24 */
+  padding-top: 20%;    /* Equivalent to pt-[20%] */
+  position: absolute; /* Equivalent to absolute */
+  color: white;       /* Equivalent to text-white */
+  background: linear-gradient(to right, black, transparent);
+  width: 100vw; 
+  aspect-ratio: 16 / 9; /* Equivalent to aspect-video */
+
+}
+
+.video-title{
+  font-size: 3.75rem;  /* Equivalent to text-6xl */
+  font-weight: bold;   /* Equivalent to font-bold */
+}
+
+.video-desc{
+  padding-top: 1.5rem;   /* Equivalent to py-6 */
+  padding-bottom: 1.5rem; /* Equivalent to py-6 */
+  font-size: 1.125rem;    /* Equivalent to text-lg */
+  width: 25%;             
+}
+.video-play {
+  background-color:white; /* Equivalent to bg-gray-500 with bg-opacity-50 */
+  color: black; /* Ensures text is white */
+  padding: 1rem 3rem; /* Equivalent to p-4 (1rem) and px-12 (3rem) */
+  font-size: 1.25rem; /* Equivalent to text-xl */
+  border-radius: 0.5rem; /* Equivalent to rounded-lg */
+  border: none; /* Removes default button border */
+  cursor: pointer; /* Makes it look clickable */
+  transition: background 0.3s ease-in-out, transform 0.2s; /* Smooth hover effect */
+}
+
+.video-play:hover {
+  opacity: 0.8; /* 80% opacity on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+.video-info{
+  margin-left: 0.5rem;  /* Equivalent to mx-2 */
+  margin-right: 0.5rem; /* Equivalent to mx-2 */
+  background-color: rgba(107, 114, 128, 0.5); /* Equivalent to bg-gray-500 with bg-opacity-50 */
+  color: white;           /* Equivalent to text-white */
+  padding: 1rem 3rem;     /* Equivalent to p-4 (1rem) and px-12 (3rem) */
+  font-size: 1.25rem;     /* Equivalent to text-xl */
+  border-radius: 0.5rem;  /* Equivalent to rounded-lg */
+}
+.video-container{
+  width: 100vw; 
+}
+.video{
+  width: 100vw; 
+  aspect-ratio: 16 / 9; /* Equivalent to aspect-video */
+
+}
