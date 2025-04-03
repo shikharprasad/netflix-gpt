@@ -220,3 +220,41 @@ padding-bottom: 1rem;
   aspect-ratio: 16 / 9; /* Equivalent to aspect-video */
 
 }
+.Poster-container{
+  width: 12rem; /* 192px */
+  padding-right: 13rem; /* 16px */
+}
+.movie-cards-container {
+  display: flex;
+  overflow-x: scroll;
+  white-space: nowrap; /* Prevents elements from wrapping */
+  scrollbar-width: none; /* Hides scrollbar in Firefox */
+  -ms-overflow-style: none; /* Hides scrollbar in Internet Explorer/Edge */
+}
+
+.movie-cards-container::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in Chrome, Safari, and Edge */
+}
+
+.movie-cards{
+  display: flex;
+}
+.movie-card-title{
+  padding-left: 1.5rem; /* 24px */
+  padding-right: 1.5rem; /* 24px */
+  color: white;
+  
+}
+.movie-title{
+  padding-top: 0.5rem; /* 8px */
+  padding-bottom: 0.5rem; /* 8px */
+}
+.sec-con-movies{
+  background: black;
+
+}
+.sec-list{
+  position: relative; /* Equivalent to 'relative' */
+  z-index: 20; /* Equivalent to 'z-20' */
+  margin-top: -13rem; /* Equivalent to '-mt-52' (52 * 0.25rem = 13rem) */
+}
